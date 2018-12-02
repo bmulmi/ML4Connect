@@ -1,0 +1,22 @@
+{
+  "name": "yhack",
+  "version": "1.0.0",
+  "description": "Sentiment Analysis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anuj Bastola, Bibhash Mulmi, Amish Regmi",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "child_process": "^1.0.2",
+    "csvtojson": "^2.0.8",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "nodemon": "^1.18.7",
+    "pg": "^7.7.1"
+  }
+}
